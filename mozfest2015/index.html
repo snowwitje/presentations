@@ -1,0 +1,287 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>UX Design Challenge in Scientific Software</title>
+
+		<meta name="description" content="MozFest 2015 Presentation">
+		<meta name="author" content="Alissa Nedossekina">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="../css/reveal.css">
+		<link rel="stylesheet" href="../css/theme/hubzero.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="../lib/css/zenburn.css">
+		
+		<link rel="stylesheet" href="../lib/font/socicon/socicon.css">
+
+		<!--[if lt IE 9]>
+		<script src="../lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section data-background="../images/hubzero_cropped_blue.png" data-background-repeat="no-repeat"  data-background-size="30%" data-background-position="-10% 30%">
+					<h1 class="tight">Let's talk <span>UX</span></h1>
+					<h2 class="tight">in scientific software</h2>
+					<h3 class="twoborders whiteonred">challenges, approaches, process</h3>
+					<p>
+						<small>Facilitated by <a href="http://twitter.com/snowwitje">Alissa Nedossekina</a> <br /> <a href="https://hubzero.org">HUBzero®</a>, Purdue University</small>
+					</p>
+				</section>
+				
+				<section>
+					<div class="grid">
+						<div class="col span4">
+							<p class="topalign"><img src="../images/hubzero_logo.png" alt="" /></p>
+						</div>
+						<div class="col span8 omega">
+							<h3 class="leftalign toppadding greyed">Open source platform<span class="block">for scientific collaboration</span></h3>
+						</div>				
+					</div>
+					<div class="opensource">
+						<p><span>Github: <a href="https://github.com/hubzero" class="">https://github.com/hubzero</a></span></p>
+					</div>
+					<div class="features">
+						<ul>
+							<li>
+						    	<img class="img-circle" src="../images/cntbands.png" />
+								<p>interactive simulation</p>
+							</li>
+							<li>
+						    	<img class="img-circle" src="../images/data.png" />
+								<p>data management &amp; publishing</p>
+							</li>
+							<li>
+						    	<img class="img-circle" src="../images/community.png" />
+								<p>community building</p>
+							</li>
+							<li>
+						    	<img class="img-circle" src="../images/learning.png" />
+								<p>online learning</p>
+							</li>
+							<li>
+						    	<img class="img-circle" src="../images/usagegraph.png" />
+								<p>data analytics &amp; impact measurement</p>
+							</li>
+						</ul>
+					</div>
+				</section>
+				
+				<section data-transition="fade">
+					<div class="grid">
+						<div class="col span4">
+							<p class="topalign"><img src="../images/hubzero_logo.png" alt="" /></p>
+						</div>
+						<div class="col span8 omega">
+							<h3 class="leftalign toppadding greyed">Open source platform<span class="block">for scientific collaboration</span></h3>
+						</div>				
+					</div>
+					<div class="opensource">
+						<p><span>Github: <a href="https://github.com/hubzero" class="">https://github.com/hubzero</a></span></p>
+					</div>
+					<div class="features">
+						<img class="hubs" src="../images/hubs-min.png" />
+						<div class="righfloat statements">
+							<div class="areas">
+								<p>nanotechnology</p>
+								<p>cancer research</p>
+								<p>climate modeling</p>
+								<p>civil engineering</p>
+								<p>pharmaceuticals</p>
+								<p>...</p>
+								<hr />
+								<p>60+ HUBs</p>
+							</div>
+						</div>
+					</div>
+				</section>
+				
+				<section data-transition="fade">
+					<div class="grid">
+						<div class="col span4">
+							<p class="topalign"><img src="../images/hubzero_logo.png" alt="" /></p>
+						</div>
+						<div class="col span8 omega">
+							<p>
+								<span class="block leftalign">Download: <a href="https://hubzero.org/download" class="">https://hubzero.org</a></span>
+								<span class="block leftalign">Github: <a href="https://github.com/hubzero" class="">https://github.com/hubzero</a></span>
+								<span class="block leftalign">Cloud: <a href="https://aws.amazon.com/marketplace/pp/B00THHMFEQ" class="">Amazon AWS Marketplace</a></span></p>
+						</div>				
+					</div>
+					<div class="opensource">
+						<p><span>Github: <a href="https://github.com/hubzero" class="">https://github.com/hubzero</a></span></p>
+					</div>
+					<div class="features usage">
+						<div class="righfloat statements">
+							<div>
+								<p>~2,000,000 visitors annually</p>
+								<p>~600,000 annual users</p>
+							</div>
+						</div>
+					</div>
+				</section>
+				
+				<section>
+					<h1>User <span>Experience</span></h1>
+					<h2>What is it exactly?</h2>
+				</section>
+				
+				<section data-background="../images/science2.jpg">
+					<h1 class="whiteonblue">Context: Science</h1>
+				</section>	
+				
+				<section data-background="../images/complex.png">
+					<h1 class="whiteonblue">Complexity</h1>
+					<h5>complex data, complex tasks</h5>
+					<h5>computation time &amp; resources</h5>
+					<h5>novel tasks, novel workflows</h5>
+				</section>
+				
+				<section data-background="../images/bad-interface1.png">
+					<h3 class="whiteonblue padded">Designed for engineers by engineers</h3>
+				</section>
+				
+				<section>
+					<h1>Balance</h1>
+					<h2 class="greyed">complexity | simplicity</h2>
+					<img src="../images/thisishard.png" class="block rightfloat" width="30%" alt="" />
+				</section>
+				
+				<section>
+					<h1>Motivation</h1>
+					<img src="../images/impact.png" alt="" />
+				</section>
+
+				<section data-transition="zoom" class="cover">
+					<h2>Medical Device Informatics Platform</h2>
+					<div class="opensource">
+						<p>Regenstrief Center for Healthcare Engineering, Purdue University</p>
+					</div>
+
+					<img src="../images/catalyzecare.png" alt="" />
+				</section>
+
+				<section>
+					<h1 class="invisible">Drug Limit Libraries</h1>
+					<div class="grid showbox">
+						<div class="col span4">
+							<img src="../images/smart_pump.png" style="padding-top: 3em;" alt="" />
+						</div>
+						<div class="col span7 omega">
+							<div class="boxed"><img src="../images/druglibrary.png" alt="" /></div>
+							<div class="boxed fragment"><img src="../images/alerts-med.png" alt="" /></div>
+						</div>
+					</div>
+				</section>
+				
+				<section>
+					<h1 class="invisible">Data Sharing Model</h1>
+					<h5><span class="greyed">125 hospitals across 11 states, ~19,000,000 records</span>
+						<span class="block">Agreeing to Share Safety Data Openly with Each Other</span>
+					</h5>
+					<img src="../images/walkthrough3.png" alt="" />
+				</section>
+				
+				<section>
+					<h5>Connecting Data Producers and Researchers</h5>
+					<img src="../images/walkthrough4-2.png" width="90%" alt="" />
+				</section>
+				
+				<section data-transition="convex">
+					<h5>New Platform</h5>
+					<img src="../images/walkthrough6-2.png" alt="" />
+				</section>
+				
+				<section>
+					<h3>Opportunity: Link to Patient Data</h3>
+					<img src="../images/walkthrough7.png" alt="" />
+				</section>
+				
+				<section>
+					<h5>Task for UX Designer</h5>
+					<img src="../images/walkthrough8-part1.png" alt="" />
+					<img src="../images/walkthrough8-part2.png" alt="" class="fragment" />
+				</section>
+				
+				<section>
+					<h5 class="invisible">UX Designer Needs Help</h5>
+					<img src="../images/helpme.png" width="80%" alt="" />
+				</section>
+				
+				<section>
+					<h3>What is your process?</h3>
+					<img src="../images/task1.png" width="80%" alt="" />
+				</section>
+				
+				<section>
+					<h5 class="invisible">UX Designer Needs Help</h5>
+					<img src="../images/task2.png" width="80%" alt="" />
+					<img src="../images/task3.png" width="80%" alt="" />
+				</section>
+				
+				<section>
+					<h2>Discussion</h2>
+					<ul>
+						<li>
+							<span>UXers, in your experience, in your projects:</span>
+							<span class="block padded">
+								<span class="block">- What is/was hard? Share problems!</span>
+								<span class="block">- What worked well? Share your process!</span>
+							</span>
+						</li>
+						<li>
+							<span>Non-UXers:</span>
+							<span class="block padded">
+								<span class="block">- Who are the users in your project? How well do you know them?</span>
+								<span class="block">- What makes good UX for your users?</span>
+								<span class="block">- How are you getting user feedback?</span>
+							</span>
+						</li>
+					</ul>
+				</section>
+				
+				<section>
+					<h5 class="invisible">Ideas Board</h5>
+					<img src="../images/final.png" alt="" />
+				</section>
+
+			</div>
+		</div>
+
+		<script src="../lib/js/head.min.js"></script>
+		<script src="../js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
